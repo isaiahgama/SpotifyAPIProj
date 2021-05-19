@@ -1,4 +1,9 @@
-# Getting Started with Create React App
+# Getting Started with this Project
+
+In order to get this app running locally for production, you will have to follow the instructions at 
+[https://developer.spotify.com/dashboard/](https://developer.spotify.com/dashboard/) to create your own spotify application.
+After obtaining your unique Client ID for your application, update the config.example.js file and continue with the following instructions.
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
