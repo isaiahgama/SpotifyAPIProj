@@ -1,0 +1,156 @@
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  padding: 5px;
+}
+
+.songTable {
+  padding-left:100px;
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align:left;
+  color:rgb(44, 42, 42);
+}
+
+.songTable2 {
+  position:absolute;
+  padding-left: 50%;
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align:left;
+  color:rgb(44, 42, 42);
+}
+
+.Results {
+  font-size: 15;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(44, 42, 42);
+}
+
+.titleBar {
+  background-color: rgb(44, 42, 42);
+  display: block;
+  font-size:medium;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(238, 236, 230);
+  padding-left: 15px;
+}
+
+.Faq {
+  font-size: large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:rgb(44, 42, 42);
+  position: absolute;
+  text-align: left;
+  padding-left: 20%;
+  padding-top: 2%;
+}
+
+.Thanks {
+  font-size: large;
+  font-family: cursive;
+  color:rgb(44, 42, 42);
+  position: absolute;
+  text-align: center;
+  bottom:10%;
+  left:45%;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: rgb(238, 236, 230);
+  color: rgb(44, 42, 42);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 8vmin;
+}
+
+.btn {
+  position:absolute;
+  left:42%;
+  bottom:20%;
+  background-color: #1ed760;
+  border-radius: 2em;
+  border: 0.2em solid #1ed760;
+  color: black;
+  cursor: pointer;
+  font-size: 3vmin;
+  font-family: 'Arial';
+  padding: 0.6em 1.2em;
+  text-transform: none;
+  transition: all 0.25s ease;
+}
+
+.btn:hover {
+  background: #179970;
+  border: solid #179970;
+  color: #333;
+}
+
+.btn--login {
+  margin: 0 auto;
+}
+
+.btn2 {
+  position:absolute;
+  left: 42%;
+  bottom:10%;
+  background-color: #1ed760;
+  border-radius: 2em;
+  border: 0.2em solid #1ed760;
+  color: black;
+  cursor: pointer;
+  font-size: 3vmin;
+  font-family: 'Arial';
+  padding: 0.6em 1.6em;
+  text-transform: none;
+  transition: all 0.25s ease;
+}
+
+.btn2:hover {
+  background: #179970;
+  border: solid #179970;
+  color: #333;
+}
+
+.btn2--login {
+  margin: 0 auto;
+}
