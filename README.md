@@ -1,5 +1,7 @@
 # Getting Started with this Project
 
+You can view the current production version of this project at [https://howcoolami.herokuapp.com](How Hip Am I?)
+
 In order to get this app running locally for development, you will have to follow the instructions at 
 [https://developer.spotify.com/dashboard/](https://developer.spotify.com/dashboard/) to create your own spotify application.
 
